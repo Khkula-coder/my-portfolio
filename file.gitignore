@@ -1,0 +1,26 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# PHP / Composer
+/vendor/
+.env
+.idea/
+.vscode/
+
+# Logs, caches, db dumps
+*.log
+*.sql
+*.sqlite
+tmp/
+cache/
+
+# Node (if present)
+node_modules/
+
+# Others
+*.zip
+*.bak
+# sensitive files
+send_reply.php
+hash.php
